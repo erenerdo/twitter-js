@@ -1,9 +1,11 @@
 const _ = require('lodash');
 
 const data = [];
+let count = 1;
 
 function add (name, content) {
-  data.push({ name: name, content: content });
+  data.push({ name: name, content: content, id: count });
+  count++;
 }
 
 function list () {
@@ -41,5 +43,5 @@ module.exports.add('Lebron James', 'Kyrie Irving sucks');
 
 // console.log(module.exports.list());
 
-// console.log('\n', module.exports.find({name : 'Lebron James'}));
+// console.log('\n', module.exports.find({id: 11}));
 

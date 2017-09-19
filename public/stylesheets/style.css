@@ -57,3 +57,13 @@ code {
 .content .by {
   font-weight: bold;
 }
+
+.tweet {
+  list-style-type: none;
+  display: inline;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+}
