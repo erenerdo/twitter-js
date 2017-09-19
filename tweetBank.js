@@ -39,6 +39,7 @@ for (let i = 0; i < 10; i++) {
 // Hard Codes Test for find
 module.exports.add('Lebron James', 'Kyrie Irving sucks');
 
+// console.log(module.exports.list());
 
-console.log(module.exports.find({name : 'Lebron James'}));
+// console.log('\n', module.exports.find({name : 'Lebron James'}));
 
